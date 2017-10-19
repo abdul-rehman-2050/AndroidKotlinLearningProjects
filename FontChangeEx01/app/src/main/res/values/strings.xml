@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Font Change Ex01</string>
+    <string name="change_font">Change Font</string>
+
+
+
+    <string-array name="urdu_fonts_array" >
+        <item>alvi_nastaleeq.ttf</item>
+        <item>attari_salees.ttf</item>
+        <item>jameel_nn.ttf</item>
+        <item>jameel_nnk.ttf</item>
+        <item>nafees_web.ttf</item>
+    </string-array>
+
+    <string name="surah_fatiha_translation_urdu">
+       <![CDATA[ <div align="center"><span class="Arabic" style="color: dimgray;">شروع الله کے نام سے جو بڑا مہربان نہایت رحم والا ہے ِ</span></div>
+<p dir="rtl" lang="AR-SA" align="justify">سب طرح کی تعریف خدا ہی کو (سزاوار) ہے جو تمام مخلوقات کا پروردگار ہے ﴿<span class="Numbers">۱</span>﴾ بڑا مہربان نہایت رحم والا ﴿<span class="Numbers">۲</span>﴾ انصاف کے دن کا حاکم ﴿<span class="Numbers">۳</span>﴾ (اے پروردگار) ہم تیری ہی عبادت کرتے ہیں اور تجھ ہی سے مدد مانگتے ہیں ﴿<span class="Numbers">۴</span>﴾ ہم کو سیدھے رستے چلا ﴿<span class="Numbers">۵</span>﴾ ان لوگوں کے رستے جن پر تو اپنا فضل وکرم کرتا رہا نہ ان کے جن پر غصے ہوتا رہا اور نہ گمراہوں کے ﴿<span class="Numbers">۶</span>﴾</p>
+<p>&nbsp;</p>]]>
+
+    </string>
+
+</resources>

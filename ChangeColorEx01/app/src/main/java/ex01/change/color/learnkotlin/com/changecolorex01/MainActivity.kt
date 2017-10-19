@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 
               //#TODO implement onQuit confirmation dialog and exit application if user confirms
 
-                
+
 
 
 
