@@ -6,7 +6,7 @@ import android.text.Html
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import android.graphics.Typeface
-
+import android.widget.SeekBar
 
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         textView1.textSize=23.0f
 
 
+
         button.setOnClickListener({
 
             cur_font_num++;
@@ -36,6 +37,11 @@ class MainActivity : AppCompatActivity() {
 
 
         })
+
+
+
+
+      
 
 
     }
