@@ -1,26 +1,19 @@
 package learnkotlin.blogspost.com.sqliteex01
 
 import android.content.Context
-import android.database.sqlite.SQLiteOpenHelper
-import android.database.sqlite.SQLiteDatabase
-import android.support.v7.widget.DialogTitle
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper
 
 
 /**
- * Created by mac on 23/10/2017.
+ * Created by mac on 23/10/2017.....
+ * Added this line to dependancey
+ * compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+ *
  */
 class MyDBAccess(context:Context) {
 
 
     val sqldb = SQLiteAssetHelper(context,"test.sqlite",null,1).writableDatabase
-
-
-    fun closeMyDB() {
-        if (sqldb != null && sqldb.isOpen()) {
-            sqldb.close()
-        }
-    }
 
 
     fun getDescription(title: String):String{
@@ -45,6 +38,14 @@ class MyDBAccess(context:Context) {
         }
         c.close()
         return list
+    }
+
+
+
+    fun closeMyDB() {
+        if (sqldb != null && sqldb.isOpen()) {
+            sqldb.close()
+        }
     }
 
 

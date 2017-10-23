@@ -7,7 +7,7 @@
     tools:context="learnkotlin.blogspost.com.sqliteex01.MainActivity">
 
     <ListView
-        android:id="@+id/lv1"
+        android:id="@+id/listViewTitles"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />

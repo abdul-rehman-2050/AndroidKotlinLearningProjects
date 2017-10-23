@@ -26,12 +26,12 @@ class MainActivity : AppCompatActivity() {
 
         //-----------------------------------------------
         mdb = MyDBAccess(this);
-        lv1.adapter=ArrayAdapter<String>(
+        listViewTitles.adapter=ArrayAdapter<String>(
                 this,android.R.layout.simple_list_item_1,mdb!!.getValueFromTableTest()
         )
         //--------------------------------------------------
 
-        lv1.onItemClickListener=OnItemClickListener { adapter, v, position, arg3 ->
+        listViewTitles.onItemClickListener=OnItemClickListener { adapter, v, position, arg3 ->
             val curTitle = adapter.getItemAtPosition(position) as String
             val curBody = mdb!!.getDescription(curTitle) as String
 
@@ -39,9 +39,6 @@ class MainActivity : AppCompatActivity() {
             intentPost.putExtra("title",curTitle)
             intentPost.putExtra("body",curBody)
             startActivity(intentPost)
-
-
-
 
             //Toast.makeText(baseContext,curBody,Toast.LENGTH_SHORT).show()
         }
